@@ -12,7 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class AlphaVantageAPI {
-
+    // a parte de recuperar informações da API ainda não está resolvida
     private static final String API_KEY = "ZLOU4ZHFHIAGWWT4"; // Substitua pelo seu API key
 
     public static float getStockPrice(String symbol) throws IOException, JSONException {
