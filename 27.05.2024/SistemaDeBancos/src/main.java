@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-
+// ainda precisa implementar a GUI
 public class main {
     public static void main(String[] args) {
         List<User> userList = new ArrayList<>();
