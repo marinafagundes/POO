@@ -79,9 +79,9 @@ O programa utiliza um arquivo de texto (example.txt) para armazenar os dados dos
     - A GUI apresenta botões e campos de entrada para cada função do programa, proporcionando uma interação mais amigável.
     - A carteira de ações do usuário e as variações de ganhos e perdas são exibidas de forma clara na interface, permitindo uma visualização rápida e fácil das informações financeiras.
 
-## * Comandos para Executar o programa*
-### *Passos para Abrir o Programa*
-#### *Terminal*
+## **Comandos para Executar o programa**
+### **Passos para Abrir o Programa**
+#### **Terminal**
 A seguir estão listados os comandos para executar o programa. O programa pode ser executado de duas
 formas: pelo terminal do Windows (CMD) ou pela IDE Eclipse.
 Opção 1:    
@@ -96,7 +96,7 @@ para compilar o programa;
 
 - Depois de compilado, usar o comando “java -cp ”.;json-20240303.jar”main para executar o programa;
 
-#### *IDE*
+#### **IDE**
 
 A seguir serão listados os processos para executar o programa sistemas de bancos em uma IDE qualquer:
 
@@ -118,6 +118,25 @@ Procedimento para executar o programa no Eclipse:
 - Em ”window” abra uma nova janela e exclua a anterior;
 - Vá em ”file”, abra ”open projects files from system” e adicione a pasta com os arquivos;
 - Clique em executar o programa;
+
+
+## **Comandos para Testar o Programa**
+### **Criar Usuário**
+- Execute o programa;
+- Na GUI selecione "AddUser"
+
+
+
+
+
+
+
+## **Problemas Durante o Projeto**
+- Os três participantes do projeto não eram providos de conhecimentos a priori em java, o que dificultou a execução do projeto;
+- A criação e funcionalidade da interface de programação de aplicação ou API com o retorno de dados do site, por ter requisitado conhecimentos não abordados durante a programação do curso;
+- A criação e aplicação da interface gráfica do usuário, pela transição entre executar funções dadas em um terminal e executar tais funções em uma GUI, pela necessidade de integração forte entre as partes da interface;
+
+
 
 
 
