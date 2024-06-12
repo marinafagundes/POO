@@ -76,3 +76,66 @@ O programa utiliza um arquivo de texto (example.txt) para armazenar os dados dos
     - A interação com o usuário é feita por meio de uma interface gráfica simples, implementada utilizando uma biblioteca Java (por ex.: JavaFX).
     - A GUI apresenta botões e campos de entrada para cada função do programa, proporcionando uma interação mais amigável.
     - A carteira de ações do usuário e as variações de ganhos e perdas são exibidas de forma clara na interface, permitindo uma visualização rápida e fácil das informações financeiras.
+
+## *5. Comandos para Executar o programa*
+### *Passos para Abrir o Programa*
+#### *Terminal*
+A seguir estão listados os comandos para executar o programa. O programa pode ser executado de duas
+formas: pelo terminal do Windows (CMD) ou pela IDE Eclipse.
+Opção 1:
+
+- Abra o site Github que apresentar ́a os arquivos do programa e extraia;
+    
+- Faça o download dos arquivos;
+    
+- Digitar CMD na barra de tarefas do Windows;
+    
+- Ao abrir o prompt, usar o comando “cd” e colar o diret ́orio da pasta onde est ́a o projeto;
+    
+- Ao verificar que est ́a no diret ́orio completo, usar o comando “javac -cp ”.;json-20240303.jar”main.java”
+para compilar o programa;
+
+- Depois de compilado, usar o comando “java -cp ”.;json-20240303.jar”main para executar o programa;
+
+#### *IDE*
+
+A seguir serão listados os processos para executar o programa sistemas de bancos em uma IDE qualquer:
+
+- Abra o site Github que apresentará os arquivos do programa e extraia;
+- Faça o download dos arquivos;
+- Abra a IDE de sua preferência;
+- Na IDE crie um novo projeto;
+- Vá em abrir arquivos;
+- Abra apenas os arquivos com terminação ”.java”do programa na pasta ”src” e adicione-os ao projeto;
+- Em bibliotecas, abra todas os arquivos bibliotecas na pasta ”bibliotecas” e adicione-as a bibliotecas no
+projeto;
+- Agora o programa está completo para ser executado. Vá em executar programa e o execute;
+Procedimento para executar o programa no Eclipse:
+- Abra o site Github que apresentará os arquivos do programa;
+- Faça o download dos arquivos e extraia;
+- Abra a IDE ”Eclipse”;
+- Selecione o diretório de ́area de trabalho;
+- Vá na janela ”New” em selecionar ”wizard” e crie um novo projeto java;
+- Coloque o nome desejado para o projeto;
+- Em ”window” abra uma nova janela e exclua a anterior;
+- Vá em ”file”, abra ”open projects files from system” e adicione a pasta com os arquivos;
+- Clique em executar o programa;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
