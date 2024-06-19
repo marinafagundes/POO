@@ -1,20 +1,90 @@
 # **Sistema de Gerenciamento de banco com Usuários, Carteira de Ações, GUI e Integração com Serviço de Bolsa de um banco fictício**
 **Grupo:** *Isabella Arão (9265732), Leonardo Garcia (14615231), Marina Fagundes(9265405)*
 
-## **Requisitos**
+## **1) Requisitos**
 
-## **Descrição do projeto**
 
-## **Comentários sobre o código**
+## **2) Descrição do projeto**
 
-## **Plano e Resultados de Testes**
 
-## **Procedimentos de Construção**
+## **3) Comentários sobre o código**
 
+
+## **4) Plano e Resultados de Testes**
+### **Comandos para Testar o Programa**
+#### **Criar Usuário**
+- Execute o programa;
+- Vá na aba "User";
+- Na GUI selecione "Add User";
+- Preencha os campos de informação;
+
+#### **Editar Usuário***
+- Execute o programa;
+- Vá na aba "User";
+- Na GUI selecione "Edit User";
+- Preencha os campos de informação;
+- Ou selecione o campo de informação no usuário;
+
+#### **Remover Usuário**
+- Execute o programa;
+- Vá na aba "User";
+- Na GUI selecione o usuário e "Remove User";
+- Preencha os campos de informação;
+
+#### **Procurar usuário por ID**
+- Execute o programa;
+- Vá na aba "User";
+- Na GUI selecione "Search User By ID";
+- Preencha os campos de informação;
+
+#### **Transferir fundos**
+- Execute o programa;
+- Vá na aba "User";
+- Na GUI selecione "Transfer Founds";
+- Preencha os campos de informação;
+
+#### **Adicionar ação**
+- Execute o programa;
+- Vá na aba "Stocks";
+- Na GUI selecione "Add Stock";
+- Preencha os campos de informação;
+
+#### **Comprar ação**
+- Execute o programa;
+- Vá na aba "Stocks";
+- Na GUI selecione "Buy Stock";
+- Preencha os campos de informação;
+
+#### **Editar ação**
+- Execute o programa;
+- Vá na aba "Stocks";
+- Na GUI selecione "Edit Stock";
+- Preencha os campos de informação;
+
+#### **Calcular ganhos/perdas**
+- Execute o programa;
+- Vá na aba "Stocks";
+- Na GUI selecione "Calculate Gains/Loss";
+- Preencha os campos de informação;
+
+#### **Remover ação**
+- Execute o programa;
+- Vá na aba "Stocks";
+- Na GUI selecione "Remove Stock";
+- Preencha os campos de informação;
+
+#### **Vender ação**
+- Execute o programa;
+- Vá na aba "Stocks";
+- Na GUI selecione "Sell Stock";
+- Preencha os campos de informação;
+
+
+## **5) Procedimentos de Construção**
 
 ### **Comandos para Executar o programa**
 #### **Passos para Abrir o Programa**
-##### **Terminal**
+##### **TERMINAL**
 A seguir estão listados os comandos para executar o programa. O programa pode ser executado de duas
 formas: pelo terminal do Windows (CMD) ou pela IDE Eclipse.
 Opção 1:    
@@ -59,7 +129,7 @@ Procedimento para executar o programa no Eclipse:
 - Clique em executar o programa;
 
 
-## **Problemas**
+## **6) Problemas**
 
 ### **Problemas Durante o Projeto**
 - Os três participantes do projeto não eram providos de conhecimentos a priori em java, o que dificultou a execução do projeto;
@@ -67,76 +137,4 @@ Procedimento para executar o programa no Eclipse:
 - A criação e aplicação da interface gráfica do usuário, pela transição entre executar funções dadas em um terminal e executar tais funções em uma GUI, pela necessidade de integração forte entre as partes da interface;
 
 
-## **Comentários**
-
-
-
-
-## **Comandos para Testar o Programa**
-### **Criar Usuário**
-- Execute o programa;
-- Vá na aba "User";
-- Na GUI selecione "Add User";
-- Preencha os campos de informação;
-
-### **Editar Usuário***
-- Execute o programa;
-- Vá na aba "User";
-- Na GUI selecione "Edit User";
-- Preencha os campos de informação;
-- Ou selecione o campo de informação no usuário;
-
-### **Remover Usuário**
-- Execute o programa;
-- Vá na aba "User";
-- Na GUI selecione o usuário e "Remove User";
-- Preencha os campos de informação;
-
-### **Procurar usuário por ID**
-- Execute o programa;
-- Vá na aba "User";
-- Na GUI selecione "Search User By ID";
-- Preencha os campos de informação;
-
-### **Transferir fundos**
-- Execute o programa;
-- Vá na aba "User";
-- Na GUI selecione "Transfer Founds";
-- Preencha os campos de informação;
-
-### **Adicionar ação**
-- Execute o programa;
-- Vá na aba "Stocks";
-- Na GUI selecione "Add Stock";
-- Preencha os campos de informação;
-
-### **Comprar ação**
-- Execute o programa;
-- Vá na aba "Stocks";
-- Na GUI selecione "Buy Stock";
-- Preencha os campos de informação;
-
-### **Editar ação**
-- Execute o programa;
-- Vá na aba "Stocks";
-- Na GUI selecione "Edit Stock";
-- Preencha os campos de informação;
-
-### **Calcular ganhos/perdas**
-- Execute o programa;
-- Vá na aba "Stocks";
-- Na GUI selecione "Calculate Gains/Loss";
-- Preencha os campos de informação;
-
-### **Remover ação**
-- Execute o programa;
-- Vá na aba "Stocks";
-- Na GUI selecione "Remove Stock";
-- Preencha os campos de informação;
-
-### **Vender ação**
-- Execute o programa;
-- Vá na aba "Stocks";
-- Na GUI selecione "Sell Stock";
-- Preencha os campos de informação;
-
+## **7) Comentários**
