@@ -45,6 +45,8 @@ Procedimento para executar o programa no Eclipse:
 - Clique em executar o programa;
 
 
+
+
 ## **Comandos para Testar o Programa**
 ### **Criar Usuário**
 - Execute o programa;
@@ -57,11 +59,12 @@ Procedimento para executar o programa no Eclipse:
 - Vá na aba "User";
 - Na GUI selecione "Edit User";
 - Preencha os campos de informação;
+- Ou selecione o campo de informação no usuário;
 
 ### **Remover Usuário**
 - Execute o programa;
 - Vá na aba "User";
-- Na GUI selecione "Remove User";
+- Na GUI selecione o usuário e "Remove User";
 - Preencha os campos de informação;
 
 ### **Procurar usuário por ID**
