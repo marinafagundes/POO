@@ -223,3 +223,6 @@ Procedimento para executar o programa no Eclipse:
 
 
 ## **7) Comentários**
+- Como este projeto foi desenvolvido ao longo da didática das aulas, há algumas alterações que poderiam ser feitas com os novos conhecimentos adquiridos.
+- O grupo se propôs a criar um código coeso, utilizando das técnicas de POO. Esse projeto indicou como essas técnicas afetam a interface com o usuário final e como sua falta é refletida na perda de intuitividade da interface;
+
