@@ -2,10 +2,31 @@
 **Grupo:** *Isabella Arão (9265732), Leonardo Garcia (14615231), Marina Fagundes(9265405)*
 
 ## **1) Requisitos**
+1. Cadastro de usuários:
+    - Permitir cadastro de usuários, com campos: nome completo, idade, saldo e ID;
+    - ID deve ser gerado automaticamente;
+    - Validação de dados de entrada, como idade e saldo não negativos;
+    - Remover usuários por meio da interface do usuário;
 
+2. Operações bancárias:
+    - Transferências entre usuários com verificações pertinentes, como saldo não negativo e que não ultrapasse o saldo do usuário de destino;
+
+3. Carteira de ações:
+    - Campos para compra, venda, cálculo de perda e ganho, adicionar ações (compradas anterioremente) e remover de ações (que podem ter sido vendidas por fora         do sistema);
+    - Verificações necessárias, como símbolo de ação correto, quantidade não negativa e saldo suficiente do usuário para compra;
+    - Integração de dados com API Alpha Vantage, para recuperação de dados de preços reais das ações;
+
+4. Carregamento de dados dos usuários em arquivo de texto:
+    - Os dados dos usuários são carregados para um arquivo de texto, além de serem atualizados sempre que há alguma modificação na interface;
+
+5. Interface gráfica (GUI): 
+    - O programa deve ter uma interface gráfica para interação com o usuário, para que ele possa interagir com o programa (por meio de botões e campos de             texto);	
 
 ## **2) Descrição do projeto**
-
+Sistema de banco que visa cadastrar, remover e buscar usuários. Além disso, usuários podem fazer transferências entre si, além de poderem ter uma carteira de ações, com dados em tempo real integrados com a API Alpha Vantage.
+Essa carteira de ações permite cadastrar ações compradas anteriormente, comprar e vender novas ações, calcular perdas e ganhos e remover ações, caso sejam vendidas por fora do sistema.
+Todos os dados de usuários são escritos em um arquivo de texto, que é atualizado junto com a interface do programa. 
+Ao fazer transferências entre usuários, os saldos são atualizados automaticamente e, quando há compra/venda de ações na aba de ações, ao voltar para a aba de usuários, o saldo já estará atualizado. 
 
 ## **3) Comentários sobre o código**
 
@@ -88,9 +109,6 @@ A seguir, faremos um breve resumo de cada classe:
 - Vá na aba "Stocks";
 - Na GUI selecione "Sell Stock";
 - Preencha os campos de informação;
-
-
-
 
 ## **Teste de Erros**
 
