@@ -225,6 +225,8 @@ Procedimento para executar o programa no Eclipse:
 - Adicione a biblioteca JSon;
 - Clique em executar o programa;
 
+Se possível, dar preferência por construir na IDE Eclipse. Além disso, destacamos a necessidade do download do plugin WindowBuilder, para permitir a criação da interface gráfica.
+
 
 ## **6) Problemas**
 
