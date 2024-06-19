@@ -2,30 +2,32 @@
 **Grupo:** *Isabella Arão (9265732), Leonardo Garcia (14615231), Marina Fagundes(9265405)*
 
 ## **1) Requisitos**
-1. Cadastro de usuários:
+1.1. Cadastro de usuários:
     - Permitir cadastro de usuários, com campos: nome completo, idade, saldo e ID;
     - ID deve ser gerado automaticamente;
     - Validação de dados de entrada, como idade e saldo não negativos;
     - Remover usuários por meio da interface do usuário;
 
-2. Operações bancárias:
+1.2. Operações bancárias:
     - Transferências entre usuários com verificações pertinentes, como saldo não negativo e que não ultrapasse o saldo do usuário de destino;
 
-3. Carteira de ações:
+1.3. Carteira de ações:
     - Campos para compra, venda, cálculo de perda e ganho, adicionar ações (compradas anterioremente) e remover de ações (que podem ter sido vendidas por fora         do sistema);
     - Verificações necessárias, como símbolo de ação correto, quantidade não negativa e saldo suficiente do usuário para compra;
     - Integração de dados com API Alpha Vantage, para recuperação de dados de preços reais das ações;
 
-4. Carregamento de dados dos usuários em arquivo de texto:
+1.4. Carregamento de dados dos usuários em arquivo de texto:
     - Os dados dos usuários são carregados para um arquivo de texto, além de serem atualizados sempre que há alguma modificação na interface;
 
-5. Interface gráfica (GUI): 
-    - O programa deve ter uma interface gráfica para interação com o usuário, para que ele possa interagir com o programa (por meio de botões e campos de             texto);	
+1.5. Interface gráfica (GUI): 
+    - O programa deve ter uma interface gráfica para interação com o usuário, para que ele possa interagir com o programa (por meio de botões e campos de texto);	
 
 ## **2) Descrição do projeto**
 Sistema de banco que visa cadastrar, remover e buscar usuários. Além disso, usuários podem fazer transferências entre si, além de poderem ter uma carteira de ações, com dados em tempo real integrados com a API Alpha Vantage.
+
 Essa carteira de ações permite cadastrar ações compradas anteriormente, comprar e vender novas ações, calcular perdas e ganhos e remover ações, caso sejam vendidas por fora do sistema.
-Todos os dados de usuários são escritos em um arquivo de texto, que é atualizado junto com a interface do programa. 
+Todos os dados de usuários são escritos em um arquivo de texto, que é atualizado junto com a interface do programa.
+
 Ao fazer transferências entre usuários, os saldos são atualizados automaticamente e, quando há compra/venda de ações na aba de ações, ao voltar para a aba de usuários, o saldo já estará atualizado. 
 
 ## **3) Comentários sobre o código**
@@ -52,120 +54,120 @@ Como o presente projeto foi desenvolvido ao longo do semestre, alguns conhecimen
 - **Melhorias na interface:** implementaríamos algumas melhorias (majoritariamente, redundâncias) no interface. Por exemplo, a funcionalidade de remover o usuário necessita que se selecione o usuário na tabela e aquele usuário será removido. Adicionalmente, achamos interessante se pudéssemos remover o usuário por id também;
 
 ## **4) Plano e Resultados de Testes**
-## **Comandos para Testar o Programa**
+### **Comandos para Testar o Programa**
 
-### **Criar Usuário**
+#### **Criar Usuário**
 - Execute o programa;
 - Vá na aba "User";
-- Na GUI selecione "Add User";
+- Na GUI, selecione "Add User";
 - Preencha os campos de informação;
 
-### **Editar Usuário**
+#### **Editar Usuário**
 - Execute o programa;
 - Vá na aba "User";
-- Na GUI selecione "Edit User";
+- Na GUI, selecione "Edit User";
 - Preencha os campos de informação;
 - Ou selecione o campo de informação no usuário;
 
-### **Remover Usuário**
+#### **Remover Usuário**
 - Execute o programa;
 - Vá na aba "User";
-- Na GUI selecione o usuário e "Remove User";
+- Na GUI, selecione o usuário e "Remove User";
 - Preencha os campos de informação;
 
-### **Procurar usuário por ID**
+#### **Procurar usuário por ID**
 - Execute o programa;
 - Vá na aba "User";
-- Na GUI selecione "Search User By ID";
+- Na GUI, selecione "Search User By ID";
 - Preencha os campos de informação;
 
-### **Transferir fundos**
+#### **Transferir fundos**
 - Execute o programa;
 - Vá na aba "User";
-- Na GUI selecione "Transfer Founds";
+- Na GUI, selecione "Transfer Founds";
 - Preencha os campos de informação;
 
-### **Adicionar ação**
+#### **Adicionar ação**
 - Execute o programa;
 - Vá na aba "Stocks";
-- Na GUI selecione "Add Stock";
+- Na GUI, selecione "Add Stock";
 - Preencha os campos de informação;
 
-### **Comprar ação**
+#### **Comprar ação**
 - Execute o programa;
 - Vá na aba "Stocks";
-- Na GUI selecione "Buy Stock";
+- Na GUI, selecione "Buy Stock";
 - Preencha os campos de informação;
 
-### **Editar ação**
+#### **Editar ação**
 - Execute o programa;
 - Vá na aba "Stocks";
-- Na GUI selecione "Edit Stock";
+- Na GUI, selecione "Edit Stock";
 - Preencha os campos de informação;
 
-### **Calcular ganhos/perdas**
+#### **Calcular ganhos/perdas**
 - Execute o programa;
 - Vá na aba "Stocks";
-- Na GUI selecione "Calculate Gains/Loss";
+- Na GUI, selecione "Calculate Gains/Loss";
 - Preencha os campos de informação;
 
-### **Remover ação**
+#### **Remover ação**
 - Execute o programa;
 - Vá na aba "Stocks";
-- Na GUI selecione "Remove Stock";
+- Na GUI, selecione "Remove Stock";
 - Preencha os campos de informação;
 
-### **Vender ação**
+#### **Vender ação**
 - Execute o programa;
 - Vá na aba "Stocks";
-- Na GUI selecione "Sell Stock";
+- Na GUI, selecione "Sell Stock";
 - Preencha os campos de informação;
 
-## **Teste de Erros**
+### **Teste de Erros**
 
-### **Criar Usuário**
-- No campo de de ID insira: números, mais de cem caracteres;
-- No campo idade insira: números negativos, idade maior que 200, letras, caracteres especiais, números não inteiros;
-- No campo de saldo insira: número negativos, letras, caracteres especiais, números com vírgulas;
+#### **Criar Usuário**
+- No campo de de ID, insira: números, mais de cem caracteres;
+- No campo idade, insira: números negativos, idade maior que 200, letras, caracteres especiais, números não inteiros;
+- No campo de saldo, insira: número negativos, letras, caracteres especiais, números com vírgulas;
 
-### **Editar Usuário***
+#### **Editar Usuário***
 - Tente selecionar um usuário e editar;
-- No campo de de ID insira: números, mais de cem caracteres;
-- No campo idade insira: números negativos, idade maior que 200, letras, caracteres especiais, números racionais;
-- No campo de saldo insira: número negativos, letras, caracteres especiais, números com vírgulas;
+- No campo de de ID, insira: números, mais de cem caracteres;
+- No campo idade, insira: números negativos, idade maior que 200, letras, caracteres especiais, números racionais;
+- No campo de saldo, insira: número negativos, letras, caracteres especiais, números com vírgulas;
 
-### **Remover Usuário**
+#### **Remover Usuário**
 - Tente não selecionar um usuário e remover;
 
-### **Procurar usuário por ID**
-- No campo de de ID insira: números não inteiros, letras, caracteres especiais,números negativos;
+#### **Procurar usuário por ID**
+- No campo de de ID, insira: números não inteiros, letras, caracteres especiais,números negativos;
 
-### **Transferir fundos**
+#### **Transferir fundos**
 - Insira: letras, caracteres especiais,números negativos;
 
-### **Adicionar ação**
-- No campo de quantidade insira: número negativos, números não inteiros, caracteres especiais;
-- No campo de valor insira: número negativos, letras, caracteres especiais;
+#### **Adicionar ação**
+- No campo de quantidade, insira: número negativos, números não inteiros, caracteres especiais;
+- No campo de valor, insira: número negativos, letras, caracteres especiais;
 
-### **Comprar ação**
-- No campo de símbolo insira: números racionais;
-- No campo de quantidade insira: número negativos, números não inteiros, caracteres especiais;
+#### **Comprar ação**
+- No campo de símbolo, insira: números racionais;
+- No campo de quantidade, insira: número negativos, números não inteiros, caracteres especiais;
 
 ### **Editar ação**
 - Tente selecionar uma ação e editar;
-- No campo de de Símbolo insira: números racionais, ação não presente no portifólio;
-- No campo quantidade insira: número negativos, números não inteiros, caracteres especiais;
-- No campo de valor insira: número negativos, letras, caracteres especiais;
+- No campo de de símbolo, insira: números racionais, ação não presente no portifólio;
+- No campo quantidade, insira: número negativos, números não inteiros, caracteres especiais;
+- No campo de valor, insira: número negativos, letras, caracteres especiais;
 
 ### **Calcular ganhos/perdas**
 - Selecione "Calculate Gain/Loss";
 
 ### **Remover ação**
-- No campo símbolo insira: números racionais, ação não presente no portifólio;
+- No campo símbolo, insira: números racionais, ação não presente no portifólio;
 
 ### **Vender ação**
-- No campo de de Símbolo insira: números racionais, ação não presente no portifólio;
-- No campo quantidade insira: número negativos, números não inteiros, caracteres especiais;
+- No campo de de símbolo, insira: números racionais, ação não presente no portifólio;
+- No campo quantidade, insira: número negativos, números não inteiros, caracteres especiais;
 
 
 ## **5) Procedimentos de Construção**
@@ -220,12 +222,11 @@ Procedimento para executar o programa no Eclipse:
 ## **6) Problemas**
 
 ### **Problemas Durante o Projeto**
-- Os três participantes do projeto não eram providos de conhecimentos a priori em java, o que dificultou a execução do projeto;
+- Os três participantes do projeto não possuíam conhecimentos a priori em java, o que dificultou a execução do projeto;
 - A criação e funcionalidade da interface de programação de aplicação ou API com o retorno de dados do site, por ter requisitado conhecimentos não abordados durante a programação do curso;
 - A criação e aplicação da interface gráfica do usuário, pela transição entre executar funções dadas em um terminal e executar tais funções em uma GUI, pela necessidade de integração forte entre as partes da interface;
 
 
 ## **7) Comentários**
 - Como este projeto foi desenvolvido ao longo da didática das aulas, há algumas alterações que poderiam ser feitas com os novos conhecimentos adquiridos.
-- O grupo se propôs a criar um código coeso, utilizando das técnicas de POO. Esse projeto indicou como essas técnicas afetam a interface com o usuário final e como sua falta é refletida na perda de intuitividade da interface;
-
+- O grupo se propôs a criar um código coeso, utilizando das técnicas de POO. Esse projeto indicou como essas técnicas afetam a interface com o usuário final e como sua falta é refletida na perda de intuitividade da interface.
