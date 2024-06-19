@@ -20,73 +20,123 @@ A seguir, faremos um breve resumo de cada classe:
 - **StockDialog:** co
 
 ## **4) Plano e Resultados de Testes**
-### **Comandos para Testar o Programa**
-#### **Criar Usuário**
+## **Comandos para Testar o Programa**
+
+### **Criar Usuário**
 - Execute o programa;
 - Vá na aba "User";
 - Na GUI selecione "Add User";
 - Preencha os campos de informação;
 
-#### **Editar Usuário***
+### **Editar Usuário***
 - Execute o programa;
 - Vá na aba "User";
 - Na GUI selecione "Edit User";
 - Preencha os campos de informação;
 - Ou selecione o campo de informação no usuário;
 
-#### **Remover Usuário**
+### **Remover Usuário**
 - Execute o programa;
 - Vá na aba "User";
 - Na GUI selecione o usuário e "Remove User";
 - Preencha os campos de informação;
 
-#### **Procurar usuário por ID**
+### **Procurar usuário por ID**
 - Execute o programa;
 - Vá na aba "User";
 - Na GUI selecione "Search User By ID";
 - Preencha os campos de informação;
 
-#### **Transferir fundos**
+### **Transferir fundos**
 - Execute o programa;
 - Vá na aba "User";
 - Na GUI selecione "Transfer Founds";
 - Preencha os campos de informação;
 
-#### **Adicionar ação**
+### **Adicionar ação**
 - Execute o programa;
 - Vá na aba "Stocks";
 - Na GUI selecione "Add Stock";
 - Preencha os campos de informação;
 
-#### **Comprar ação**
+### **Comprar ação**
 - Execute o programa;
 - Vá na aba "Stocks";
 - Na GUI selecione "Buy Stock";
 - Preencha os campos de informação;
 
-#### **Editar ação**
+### **Editar ação**
 - Execute o programa;
 - Vá na aba "Stocks";
 - Na GUI selecione "Edit Stock";
 - Preencha os campos de informação;
 
-#### **Calcular ganhos/perdas**
+### **Calcular ganhos/perdas**
 - Execute o programa;
 - Vá na aba "Stocks";
 - Na GUI selecione "Calculate Gains/Loss";
 - Preencha os campos de informação;
 
-#### **Remover ação**
+### **Remover ação**
 - Execute o programa;
 - Vá na aba "Stocks";
 - Na GUI selecione "Remove Stock";
 - Preencha os campos de informação;
 
-#### **Vender ação**
+### **Vender ação**
 - Execute o programa;
 - Vá na aba "Stocks";
 - Na GUI selecione "Sell Stock";
 - Preencha os campos de informação;
+
+
+
+
+## **Teste de Erros**
+
+### **Criar Usuário**
+- No campo de de ID insira: números, mais de cem caracteres;
+- No campo idade insira: números negativos, idade maior que 200, letras, caracteres especiais, números não inteiros;
+- No campo de saldo insira: número negativos, letras, caracteres especiais, números com vírgulas;
+
+### **Editar Usuário***
+- Tente selecionar um usuário e editar;
+- No campo de de ID insira: números, mais de cem caracteres;
+- No campo idade insira: números negativos, idade maior que 200, letras, caracteres especiais, números racionais;
+- No campo de saldo insira: número negativos, letras, caracteres especiais, números com vírgulas;
+
+### **Remover Usuário**
+- Tente não selecionar um usuário e remover;
+
+### **Procurar usuário por ID**
+- No campo de de ID insira: números não inteiros, letras, caracteres especiais,números negativos;
+
+### **Transferir fundos**
+- Insira: letras, caracteres especiais,números negativos;
+
+### **Adicionar ação**
+- No campo de quantidade insira: número negativos, números não inteiros, caracteres especiais;
+- No campo de valor insira: número negativos, letras, caracteres especiais;
+
+### **Comprar ação**
+- No campo de símbolo insira: números racionais;
+- No campo de quantidade insira: número negativos, números não inteiros, caracteres especiais;
+
+### **Editar ação**
+- Tente selecionar uma ação e editar;
+- No campo de de Símbolo insira: números racionais, ação não presente no portifólio;
+- No campo quantidade insira: número negativos, números não inteiros, caracteres especiais;
+- No campo de valor insira: número negativos, letras, caracteres especiais;
+
+### **Calcular ganhos/perdas**
+- Selecione "Calculate Gain/Loss";
+
+### **Remover ação**
+- No campo símbolo insira: números racionais, ação não presente no portifólio;
+
+### **Vender ação**
+- No campo de de Símbolo insira: números racionais, ação não presente no portifólio;
+- No campo quantidade insira: número negativos, números não inteiros, caracteres especiais;
 
 
 ## **5) Procedimentos de Construção**
