@@ -178,21 +178,8 @@ Como o presente projeto foi desenvolvido ao longo do semestre, alguns conhecimen
 ##### **TERMINAL**
 Estrutura das pastas para compilação:
 
-ProjetoFinal/
-├── bin/
-│   └── (arquivos compilados)
-├── lib/
-│   └── json.jar
-├── src/
-│   ├── gui/
-│   │   └── MainFrame.java
-│   ├── model/
-│   │   └── *.java
-│   └── utils/
-│       └── *.java
-├── .classpath
-├── .project
-└── users.txt
+
+![image](https://github.com/marinafagundes/POO/assets/166514758/740eb7bc-cb8e-4c34-a4b9-ccede576fcbc)
 
 Compilar o Projeto:
 
