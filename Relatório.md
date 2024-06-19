@@ -31,9 +31,6 @@ Ao fazer transferências entre usuários, os saldos são atualizados automaticam
 ## **3) Comentários sobre o código**
 
 ### **Projeto de sistema de gerenciamento de bancos**
-## **3) Comentários sobre o código**
-
-### **Projeto de sistema de gerenciamento de bancos**
 O projeto atual de gerenciamento de bancos está dividido em três grandes pacotes:
 - **GUI:** contém todas as classes referentes à interface gráfica (*MainFrame, StockDialog, StockPanel, UserDialog, UserPanel, UserPanelUpdateListener*);
 - **Model:** contém as três classes fundamentais do projeto (*User, Stock, StockPriceRetriever*);
@@ -47,7 +44,13 @@ A seguir, faremos um breve resumo de cada classe:
 - **UserPanel:** responsável pela implementação do painel de conteúdo da aba User, que contém as funcionalidades de adicionar usuário, editar usuário, remover usuário, buscar usuário por id e transferir fundos;
 - **UserPanelUpdateListener:** ouvinte necessário para atualizar a aba de usuários sempre que há uma mudança no balanço causada por alguma ação na aba ação;
 - **Stock:** classe que contém todos os métodos relacionados a ações;
-- **StockProceRetrieval:** classe que contém o 
+- **StockProceRetrieval:** classe que contém o método para recuperar o preço de uma ação através da API AlphaVantage. Por estarmos utilizando a versão gratuita, há um limite de solicitações por dia e admitimos que o preço de fechamento da ação no último dia útil é o seu preço atual;
+-  **User:** classe que contém todos os métodos relacionados ao usuário e ao gerenciamento de sua carteira de ações;
+
+Como o presente projeto foi desenvolvido ao longo do semestre, alguns conhecimentos importantes foram adquiridos apenas nas suas últimas etapas. Assim, achamos essencial listar duas melhorias que faríamos caso tivéssemos mais tempo para desenvolver o projeto:
+- **Dividir a classe User:** a classe user resultou em uma classe longa, que poderia ser dividida em User e StockManager, permitindo maior coesão e qualidade do código;
+- **Melhorias na interface:** implementaríamos algumas melhorias (majoritariamente, redundâncias) no interface. Por exemplo, a funcionalidade de remover o usuário necessita que se selecione o usuário na tabela e aquele usuário será removido. Adicionalmente, achamos interessante se pudéssemos remover o usuário por id também;
+
 ## **4) Plano e Resultados de Testes**
 ## **Comandos para Testar o Programa**
 
