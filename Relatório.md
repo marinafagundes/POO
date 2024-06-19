@@ -51,7 +51,7 @@ A seguir, faremos um breve resumo de cada classe:
 -  **User:** classe que contém todos os métodos relacionados ao usuário e ao gerenciamento de sua carteira de ações;
 
 Como o presente projeto foi desenvolvido ao longo do semestre, alguns conhecimentos importantes foram adquiridos apenas nas suas últimas etapas. Assim, achamos essencial listar duas melhorias que faríamos caso tivéssemos mais tempo para desenvolver o projeto:
-- **Dividir a classe User:** a classe user resultou em uma classe longa, que poderia ser dividida em User e StockManager, permitindo maior coesão e qualidade do código;
+- **Dividir a classe User:** a classe User resultou em uma classe longa, que poderia ser dividida em User e StockManager, permitindo maior coesão e qualidade do código;
 - **Melhorias na interface:** implementaríamos algumas melhorias (majoritariamente, redundâncias) no interface. Por exemplo, a funcionalidade de remover o usuário necessita que se selecione o usuário na tabela e aquele usuário será removido. Adicionalmente, achamos interessante se pudéssemos remover o usuário por id também;
 
 ## **4) Plano e Resultados de Testes**
