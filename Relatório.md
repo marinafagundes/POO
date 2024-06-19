@@ -1,10 +1,20 @@
 # **Sistema de Gerenciamento de banco com Usuários, Carteira de Ações, GUI e Integração com Serviço de Bolsa de um banco fictício**
 **Grupo:** *Isabella Arão (9265732), Leonardo Garcia (14615231), Marina Fagundes(9265405)*
 
+## **Requisitos**
 
-## **Comandos para Executar o programa**
-### **Passos para Abrir o Programa**
-#### **Terminal**
+## **Descrição do projeto**
+
+## **Comentários sobre o código**
+
+## **Plano e Resultados de Testes**
+
+## **Procedimentos de Construção**
+
+
+### **Comandos para Executar o programa**
+#### **Passos para Abrir o Programa**
+##### **Terminal**
 A seguir estão listados os comandos para executar o programa. O programa pode ser executado de duas
 formas: pelo terminal do Windows (CMD) ou pela IDE Eclipse.
 Opção 1:    
@@ -21,7 +31,7 @@ para compilar o programa;
 
 - Depois de compilado, usar o comando “java -cp ”.;json-20240303.jar”main para executar o programa;
 
-#### **IDE**
+##### **IDE**
 
 A seguir serão listados os processos para executar o programa sistemas de bancos em uma IDE qualquer:
 
@@ -47,6 +57,17 @@ Procedimento para executar o programa no Eclipse:
 - Vá em ”file”, abra ”open projects files from system” e adicione a pasta com os arquivos;
 - Adicione a biblioteca JSon;
 - Clique em executar o programa;
+
+
+## **Problemas**
+
+### **Problemas Durante o Projeto**
+- Os três participantes do projeto não eram providos de conhecimentos a priori em java, o que dificultou a execução do projeto;
+- A criação e funcionalidade da interface de programação de aplicação ou API com o retorno de dados do site, por ter requisitado conhecimentos não abordados durante a programação do curso;
+- A criação e aplicação da interface gráfica do usuário, pela transição entre executar funções dadas em um terminal e executar tais funções em uma GUI, pela necessidade de integração forte entre as partes da interface;
+
+
+## **Comentários**
 
 
 
@@ -118,31 +139,4 @@ Procedimento para executar o programa no Eclipse:
 - Vá na aba "Stocks";
 - Na GUI selecione "Sell Stock";
 - Preencha os campos de informação;
-
-
-
-
-
-
-
-
-## **Problemas Durante o Projeto**
-- Os três participantes do projeto não eram providos de conhecimentos a priori em java, o que dificultou a execução do projeto;
-- A criação e funcionalidade da interface de programação de aplicação ou API com o retorno de dados do site, por ter requisitado conhecimentos não abordados durante a programação do curso;
-- A criação e aplicação da interface gráfica do usuário, pela transição entre executar funções dadas em um terminal e executar tais funções em uma GUI, pela necessidade de integração forte entre as partes da interface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
