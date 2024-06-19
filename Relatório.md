@@ -3,24 +3,25 @@
 
 ## **1) Requisitos**
 1.1. Cadastro de usuários:
-    - Permitir cadastro de usuários, com campos: nome completo, idade, saldo e ID;
-    - ID deve ser gerado automaticamente;
-    - Validação de dados de entrada, como idade e saldo não negativos;
-    - Remover usuários por meio da interface do usuário;
+ - Permitir cadastro de usuários, com campos: nome completo, idade, saldo e ID;
+ - ID deve ser gerado automaticamente;
+ - Validação de dados de entrada, como idade e saldo não negativos;
+ - Remover usuários por meio da interface do usuário;
 
 1.2. Operações bancárias:
-    - Transferências entre usuários com verificações pertinentes, como saldo não negativo e que não ultrapasse o saldo do usuário de destino;
+
+- Transferências entre usuários com verificações pertinentes, como saldo não negativo e que não ultrapasse o saldo do usuário de destino;
 
 1.3. Carteira de ações:
-    - Campos para compra, venda, cálculo de perda e ganho, adicionar ações (compradas anterioremente) e remover de ações (que podem ter sido vendidas por fora         do sistema);
-    - Verificações necessárias, como símbolo de ação correto, quantidade não negativa e saldo suficiente do usuário para compra;
-    - Integração de dados com API Alpha Vantage, para recuperação de dados de preços reais das ações;
+- Campos para compra, venda, cálculo de perda e ganho, adicionar ações (compradas anterioremente) e remover de ações (que podem ter sido vendidas por fora         do sistema);
+- Verificações necessárias, como símbolo de ação correto, quantidade não negativa e saldo suficiente do usuário para compra;
+- Integração de dados com API Alpha Vantage, para recuperação de dados de preços reais das ações;
 
 1.4. Carregamento de dados dos usuários em arquivo de texto:
-    - Os dados dos usuários são carregados para um arquivo de texto, além de serem atualizados sempre que há alguma modificação na interface;
+- Os dados dos usuários são carregados para um arquivo de texto, além de serem atualizados sempre que há alguma modificação na interface;
 
 1.5. Interface gráfica (GUI): 
-    - O programa deve ter uma interface gráfica para interação com o usuário, para que ele possa interagir com o programa (por meio de botões e campos de texto);	
+- O programa deve ter uma interface gráfica para interação com o usuário, para que ele possa interagir com o programa (por meio de botões e campos de texto);	
 
 ## **2) Descrição do projeto**
 Sistema de banco que visa cadastrar, remover e buscar usuários. Além disso, usuários podem fazer transferências entre si, além de poderem ter uma carteira de ações, com dados em tempo real integrados com a API Alpha Vantage.
