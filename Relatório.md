@@ -9,6 +9,15 @@
 
 ## **3) Comentários sobre o código**
 
+### **Projeto de sistema de gerenciamento de bancos**
+O projeto atual de gerenciamento de bancos está dividido em três grandes pacotes:
+- **GUI:** contém todas as classes referentes à interface gráfica (*MainFrame, StockDialog, StockPanel, UserDialog, UserPanel*);
+- **Model:** contém as três classes fundamentais do projeto (*User, Stock e StockPriceRetriever*);
+- **Utils:** contém as classes *UserUtils e StockUtils*, com métodos adicionais para usuários e ações;
+
+A seguir, faremos um breve resumo de cada classe:
+- **MainFrame:** responsável pela implementação da janela principal da nossa interface, que contém duas abas (de Usuários e de Ações). Contém a função main();
+- **StockDialog:** co
 
 ## **4) Plano e Resultados de Testes**
 ### **Comandos para Testar o Programa**
