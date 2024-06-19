@@ -31,15 +31,23 @@ Ao fazer transferências entre usuários, os saldos são atualizados automaticam
 ## **3) Comentários sobre o código**
 
 ### **Projeto de sistema de gerenciamento de bancos**
+## **3) Comentários sobre o código**
+
+### **Projeto de sistema de gerenciamento de bancos**
 O projeto atual de gerenciamento de bancos está dividido em três grandes pacotes:
-- **GUI:** contém todas as classes referentes à interface gráfica (*MainFrame, StockDialog, StockPanel, UserDialog, UserPanel*);
-- **Model:** contém as três classes fundamentais do projeto (*User, Stock e StockPriceRetriever*);
-- **Utils:** contém as classes *UserUtils e StockUtils*, com métodos adicionais para usuários e ações;
+- **GUI:** contém todas as classes referentes à interface gráfica (*MainFrame, StockDialog, StockPanel, UserDialog, UserPanel, UserPanelUpdateListener*);
+- **Model:** contém as três classes fundamentais do projeto (*User, Stock, StockPriceRetriever*);
+- **Utils:** contém as classes de utilidades (*UserUtils, StockUtils*), com métodos adicionais para usuários e ações;
 
 A seguir, faremos um breve resumo de cada classe:
 - **MainFrame:** responsável pela implementação da janela principal da nossa interface, que contém duas abas (de Usuários e de Ações). Contém a função main();
-- **StockDialog:** co
-
+- **StockDialog:** responsável pela implementação da janela pop-up na aba de Stock e dos métodos necessários para o funcionamento dessa janela;
+- **StockPanel:** responsável pela implementação do painel de conteúdo da aba Stock, que contém as funcionalidades de adicionar ação, comprar ação, editar ação, calcular perdas/ganhos, remover ação e vender ação. Todas essas funções estão relacionadas à carteira de ações de um usuário, que deve ser verificado logo no início;
+- **UserDialog:** responsável pela implementação da janela pop-up na aba de User e dos métodos necessários para o funcionamento dessa janela;
+- **UserPanel:** responsável pela implementação do painel de conteúdo da aba User, que contém as funcionalidades de adicionar usuário, editar usuário, remover usuário, buscar usuário por id e transferir fundos;
+- **UserPanelUpdateListener:** ouvinte necessário para atualizar a aba de usuários sempre que há uma mudança no balanço causada por alguma ação na aba ação;
+- **Stock:** classe que contém todos os métodos relacionados a ações;
+- **StockProceRetrieval:** classe que contém o 
 ## **4) Plano e Resultados de Testes**
 ## **Comandos para Testar o Programa**
 
@@ -49,7 +57,7 @@ A seguir, faremos um breve resumo de cada classe:
 - Na GUI selecione "Add User";
 - Preencha os campos de informação;
 
-### **Editar Usuário***
+### **Editar Usuário**
 - Execute o programa;
 - Vá na aba "User";
 - Na GUI selecione "Edit User";
