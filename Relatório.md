@@ -176,21 +176,40 @@ Como o presente projeto foi desenvolvido ao longo do semestre, alguns conhecimen
 ### **Comandos para Executar o programa**
 #### **Passos para Abrir o Programa**
 ##### **TERMINAL**
-A seguir estão listados os comandos para executar o programa. O programa pode ser executado de duas
-formas: pelo terminal do Windows (CMD) ou pela IDE Eclipse.
-Opção 1:    
-- Faça o download dos arquivos;
+Estrutura das pastas para compilação:
 
-- Faça o download da biblioteca JSon;
+ProjetoFinal/
+├── bin/
+│   └── (arquivos compilados)
+├── lib/
+│   └── json.jar
+├── src/
+│   ├── gui/
+│   │   └── MainFrame.java
+│   ├── model/
+│   │   └── *.java
+│   └── utils/
+│       └── *.java
+├── .classpath
+├── .project
+└── users.txt
 
-- Digitar CMD na barra de tarefas do Windows;
-    
-- Ao abrir o prompt, usar o comando “cd” e colar o diretório da pasta onde está o projeto;
-    
-- Ao verificar que está no diretório completo, usar o comando “javac -cp ”.;json-20240303.jar”main.java”
-para compilar o programa;
+Compilar o Projeto:
 
-- Depois de compilado, usar o comando “java -cp ”.;json-20240303.jar”main para executar o programa;
+Abra o PowerShell/CMD;
+
+Navegue até o diretório src do projeto:
+cd meucaminho\ProjetoFinal\src
+
+Compile os arquivos Java, incluindo a biblioteca JSON no classpath:
+javac -d meucaminho\ProjetoFinal\bin -cp meucaminho\ProjetoFinal\lib\json.jar meucaminho\ProjetoFinal\src\gui\*.java meucaminho\ProjetoFinal\src\model\*.java meucaminho\ProjetoFinal\src\utils\*.java
+
+Executar a Aplicação:
+Navegue até o diretório bin do projeto:
+cd meucaminho\ProjetoFinal\bin
+java -cp "meucaminho\ProjetoFinal\bin;meucaminho\ProjetoFinal\lib\json.jar" gui.MainFrame
+
+Certifique-se de substituir meucaminho pelo caminho real onde o projeto está armazenado.
 
 ##### **IDE**
 
