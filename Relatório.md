@@ -1,5 +1,5 @@
 # **Sistema de Gerenciamento de banco com Usuários, Carteira de Ações, GUI e Integração com Serviço de Bolsa de um banco fictício**
-**Grupo:** *Isabella Arão (9265732), Leonardo Garcia (14615231), Marina Fagundes(9265405)*
+**Grupo:** *Isabella Arão (9265732), Leonardo Garcia (14615231), Marina Fagundes (9265405)*
 
 ## **1) Requisitos**
 1.1. Cadastro de usuários:
