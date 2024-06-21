@@ -54,6 +54,10 @@ Como o presente projeto foi desenvolvido ao longo do semestre, alguns conhecimen
 - **Dividir a classe User:** a classe User resultou em uma classe longa, que poderia ser dividida em User e StockManager, permitindo maior coesão e qualidade do código;
 - **Melhorias na interface:** implementaríamos algumas melhorias (majoritariamente, redundâncias) no interface. Por exemplo, a funcionalidade de remover o usuário necessita que se selecione o usuário na tabela e aquele usuário será removido. Adicionalmente, achamos interessante se pudéssemos remover o usuário por id também;
 
+Além disso, gostaríamos de pontuar duas alterações no projeto:
+- **Inserir múltiplos usuários:** com a implementação da GUI, essa função se tornou irrelevante, uma vez que o usuário do programa (funcionário do banco) precisa apenas apertar um botão para gerar adicionar quantos usuários ele desejar;
+- **Remover por id:** com a implementação da GUI, decidimos implementar a função remover por seleção, de modo a ser mais intuitiva e utilizar recursos da GUI. Entretanto, como mencionamos anteriormente, caso tivéssemos mais tempo, implementaríamos redundâncias na interface que complementariam o nosso projeto, como a remoção por id;
+
 ## **4) Plano e Resultados de Testes**
 ### **Comandos para Testar o Programa**
 
