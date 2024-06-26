@@ -51,24 +51,28 @@ Não houve interação com o grupo antes da presente revisão.
 
 ## a) Code Design and frameworks’ use:
 
-	O código está separado em pacotes (app, forms e tests.app) e, dentro de cada pasta, em classes. Além disso, foi feito o uso de interfaces, que agrupam os métodos que serão utilizados em cada classe. 
-	Em relação à utilização de frameworks, foi utilizado o framework JUnit, para testes automatizados em Java.
+O código está separado em pacotes (app, forms e tests.app) e, dentro de cada pasta, em classes. Além disso, foi feito o uso de interfaces, que agrupam os métodos que serão utilizados em cada classe. 
+Em relação à utilização de frameworks, foi utilizado o framework JUnit, para testes automatizados em Java.
+
 ## b) Code Organization:
 
 O código está bem organizado, no geral. As classes são bem estruturadas e têm coesão. O uso de interfaces foi uma boa escolha, pois agrupou métodos usados nas classes. Apenas sentimos falta de uma classe para métodos auxiliares, que aparecem em mais de uma classe, como os métodos equals e clone. 
+
 As classes estão separadas em pastas (app, forms, tests.app), o que mostrou uma boa organização. Por exemplo, todas as classes que se referem à GUI estão agrupadas em forms. Isso ajudou no entendimento do projeto.
 
 ## c) How the code works:
 
-	O código se refere a um sistema de cadastro de aeroportos e seus respectivos voos. Conta com uma interface estruturada, que permite a visualização de cada aeroporto cadastrado e uma lista com todos os voos que foram adicionados. Também conta com opções de adicionar novos aeroportos, adicionar e remover voos, além da opção de listagem. 
-	Compilamos e executamos o código a partir da IDE Eclipse, então não enfrentamos problemas quanto a isso. O código contém uma pasta com classes de testes JUnit. 
+O código se refere a um sistema de cadastro de aeroportos e seus respectivos voos. Conta com uma interface estruturada, que permite a visualização de cada aeroporto cadastrado e uma lista com todos os voos que foram adicionados. Também conta com opções de adicionar novos aeroportos, adicionar e remover voos, além da opção de listagem. 
+
+Compilamos e executamos o código a partir da IDE Eclipse, então não enfrentamos problemas quanto a isso. O código contém uma pasta com classes de testes JUnit. 
 Sentimos falta de testagem de algumas verificações de erro no cadastro, por exemplo: (i) verificação de horários de voo com letras, ao invés de números; (ii) nomes de cidades compostos por números. Além disso, ao emitir um aviso de erro, a mensagem é sempre a mesma, se referindo ao código de voo inválido, mesmo quando o campo sendo testado é outro. 
+
 Adicionalmente, percebemos que os dados cadastrados não estão sendo inseridos no arquivo de texto “airports.txt” e os dados do arquivo (cadastrados anteriormente) não estão aparecendo na GUI quando o código é executado. 
 Não vemos o que foi dito acima como problemas graves, temos certeza de que, se tivessem mais tempo, o grupo teria conseguido arrumar esses bugs com facilidade. Também temos em mente que podemos ter enfrentado algumas dificuldades por conta de sistemas operacionais diferentes, além da versão do java.
 
 ## d) Code Documentation:
 
-	O código tem extensa documentação, contando com Javadoc, nos padrões esperados, a respeito de todos os métodos, o que foi de grande ajuda para conseguirmos compreender melhor o código lido. 
+O código tem extensa documentação, contando com Javadoc, nos padrões esperados, a respeito de todos os métodos, o que foi de grande ajuda para conseguirmos compreender melhor o código lido. 
  
 # 3. What you would make differently:
 
