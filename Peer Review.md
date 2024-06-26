@@ -47,7 +47,7 @@ No geral, o relatório é consistente e claro, consegue descrever bem o projeto 
 
 Não houve interação com o grupo antes da presente revisão.
  
-# 2. Code Quality (3 stars):
+# 2. Code Quality (4 stars):
 
 ## a) Code Design and frameworks’ use:
 
