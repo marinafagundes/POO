@@ -79,17 +79,11 @@ O código tem extensa documentação, contando com Javadoc, nos padrões esperad
 A GUI, apesar de ser bem estruturada, não mostra todas as informações dos voos que foram cadastrados para cada aeroporto. Os campos cidade de destino, número do voo, cidade natal e aeroporto natal aparecem, mas o horário e contagem de passageiros de cada voo não aparece, então achamos que seria interessante ter adicionado essas informações também. Principalmente porque a função Excluir necessita que sejam inseridos os dados de horário também, portanto, seria interessante que eles estivessem facilmente visíveis.
 
 Figura 01 - Lista de voos do aeroporto GYN.
-
-
+![image](https://github.com/marinafagundes/POO/assets/166514758/a4fcad7f-08b6-4ff9-90da-0c7dc9f970b7)
 Fonte: Elaborada pelos autores.
 
 Figura 02 - Campos necessários para exclusão de um voo.
-
-
-
-
-
-
+![image](https://github.com/marinafagundes/POO/assets/166514758/5a511530-5907-4634-8d54-477ad3b1589e)
 Fonte: Elaborada pelos autores.
 
 Caso houvesse mais tempo, adicionaríamos algumas redundâncias na GUI, de forma a torná-la mais intuitiva e amigável. Por exemplo, o cadastro de aeroportos e voos só pode ser finalizado com o mouse e não com o teclado, mas seria interessante que a interface oferecesse ambas possibilidades. Além disso, para excluir um voo, não há a opção de clicar na lista com o mouse e apenas excluir, só é possível fazer isso pelo teclado, inserindo todas as informações do voo.
