@@ -83,7 +83,9 @@ Figura 01 - Lista de voos do aeroporto GYN.
 Fonte: Elaborada pelos autores.
 
 Figura 02 - Campos necessários para exclusão de um voo.
+
 ![image](https://github.com/marinafagundes/POO/assets/166514758/5a511530-5907-4634-8d54-477ad3b1589e)
+
 Fonte: Elaborada pelos autores.
 
 Caso houvesse mais tempo, adicionaríamos algumas redundâncias na GUI, de forma a torná-la mais intuitiva e amigável. Por exemplo, o cadastro de aeroportos e voos só pode ser finalizado com o mouse e não com o teclado, mas seria interessante que a interface oferecesse ambas possibilidades. Além disso, para excluir um voo, não há a opção de clicar na lista com o mouse e apenas excluir, só é possível fazer isso pelo teclado, inserindo todas as informações do voo.
